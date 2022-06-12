@@ -8,7 +8,7 @@ function showBlog(blogs) {
     result += `
         <div class="border-b py-8">
         <h3 class="mb-5">
-          <a href="" class="text-[26px] font-bold"
+          <a href="/blog_detail.html?id=${blog.id}" class="text-[26px] font-bold"
             >${blog.name}</a
           >
         </h3>

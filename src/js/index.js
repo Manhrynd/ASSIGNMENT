@@ -59,7 +59,7 @@ function showPost(post) {
     result += `
           <div class="bg-white p-5">
             <h3 class="mb-5">
-              <a href="" class="text-[26px] font-bold"
+              <a href="/blog_detail.html?id=${Post.id}" class="text-[26px] font-bold"
                 >${Post.title}</a>
               
             </h3>
